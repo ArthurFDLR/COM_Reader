@@ -6,8 +6,10 @@ QT += widgets
 SOURCES += \
     main.cpp \
     serialparser.cpp \
-    mainwindow.cpp
+    mainwindow.cpp \
+    telemetryrawdisplay.cpp
 
 HEADERS += \
     serialparser.h \
-    mainwindow.h
+    mainwindow.h \
+    telemetryrawdisplay.h

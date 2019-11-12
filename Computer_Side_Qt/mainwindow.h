@@ -6,6 +6,7 @@
 #include <QTextEdit>
 #include <QThread>
 #include "serialparser.h"
+#include "telemetryrawdisplay.h"
 
 class MainWindow : public QWidget
 {
@@ -20,7 +21,7 @@ public slots:
 
 private:
     QTextEdit *m_textWindow;
-    SerialParser *m_parser;
+    TelemetryRawDisplay* telemetryDisplay;
 
 };
 
